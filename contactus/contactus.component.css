@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+.contact-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0d47a1; /* Dark blue for header title */
+    margin: 0;
+}
+
+header p {
+    color: #1976d2; /* Medium blue for subtitle */
+}
+
+/* Introduction Section */
+.introduction {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0d47a1; /* Dark blue for labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #90caf9; /* Light blue border */
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #42a5f5; /* Bright blue for button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #2196f3; /* Darker blue on hover */
+}
+
+/* Alternative Contacts Section */
+.alternative-contacts {
+    margin-bottom: 20px;
+}
+
+.alternative-contacts h2 {
+    color: #0d47a1; /* Dark blue for section title */
+}
+
+.alternative-contacts p {
+    margin: 5px 0;
+}
+
+/* Social Media Links */
+.social-media a {
+    margin-right: 10px;
+    color: #0d47a1; /* Dark blue for links */
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* FAQ Section */
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h2 {
+    color: #0d47a1; /* Dark blue for section title */
+}
+
+/* Location Section */
+.location {
+    margin-bottom: 20px;
+}
+
+.location h2 {
+    color: #0d47a1; /* Dark blue for section title */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #6ab9f9; /* Light blue for footer */
+    color: #0d47a1; /* Dark blue for text */
+    border-radius: 8px;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #0d47a1; /* Dark blue for footer links */
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.faq {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq h2 {
+    color: #0d47a1; /* Dark blue for section title */
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.faq-question {
+    display: block;
+    background-color: #bbdefb; /* Light blue for question background */
+    color: #0d47a1; /* Dark blue for question text */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #90caf9; /* Slightly darker blue on hover */
+}
+
+.faq-answer {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #ffffff; /* White background for answers */
+    border-left: 3px solid #42a5f5; /* Bright blue border for answers */
+    border-radius: 5px;
+    display: none; /* Hide answers by default */
+}
+
+/* Show the answer when the checkbox is checked */
+.faq-toggle:checked + .faq-question + .faq-answer {
+    display: block; /* Show the answer */
+}

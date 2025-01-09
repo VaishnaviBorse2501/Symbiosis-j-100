@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #61ffe2, #9c6bff); /* Gradient background */
+}
+
+.container {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4a90e2; /* Light blue for header */
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+header nav {
+    margin-right: auto; /* Push the title to the center */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the header text */
+    color: #003366; /* Darker blue for the title */
+}
+
+/* Feedback Form Styles */
+.feedback-form {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Space around the section */
+}
+
+.feedback-form h2 {
+    color: #003366; /* Darker blue for section title */
+}
+
+.feedback-form p {
+    margin-bottom: 15px; /* Space below paragraph */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Spacing between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #003366; /* Darker blue for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for comfort */
+    border: 1px solid #4a90e2; /* Light blue border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button.cta-button {
+    background-color: #4a90e2; /* Main blue for button */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button.cta-button:hover {
+    background-color: #6ab7f9; /* Slightly lighter blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px; /* Space above footer */
+    text-align: center; /* Center footer text */
+    padding: 20px; /* Padding for footer */
+    background-color: #4a90e2; /* Light blue background for footer */
+    border-top: 2px solid #003366; /* Darker blue border at the top */
+}
+
+.footer-links nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links nav ul li {
+    display: inline; /* Inline list items */
+    margin: 20px; /* Space between items */
+}
+
+.footer-links nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #003366; /* Darker blue for links */
+}
+
+.footer-links nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

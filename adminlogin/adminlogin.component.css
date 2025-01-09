@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Soft light background */
+}
+
+.container {
+    max-width: 600px; /* Limit the width for the form */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #4a90e2; /* Light blue for header */
+}
+
+h1 {
+    color: #003366; /* Darker blue for the title */
+    margin: 0; /* Remove default margin */
+}
+
+.tagline {
+    color: #005b99; /* Medium shade of blue for tagline */
+    margin: 5px 0 15px; /* Add some margin */
+}
+
+/* Admin Login Form Styles */
+.admin-login-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px; /* Spacing between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #003366; /* Darker blue for labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border: 1px solid #4a90e2; /* Light blue border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #6ab7f9; /* Slightly lighter blue on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%; /* Full width for button */
+    padding: 10px;
+    background-color: #4a90e2; /* Main blue for button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6ab7f9; /* Slightly lighter blue on hover */
+}
+
+/* Footer Text */
+.footer-text {
+    text-align: center; /* Center the footer text */
+    margin: 15px 0; /* Space above and below the footer text */
+}
+
+.footer-text a {
+    color: #4a90e2; /* Light blue for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #6ab7f9; /* Slightly lighter blue on hover */
+}
+
+/* Go Home Link */
+.go-home {
+    text-align: center; /* Center the link */
+    margin: 15px 0; /* Space above and below the link */
+}
+
+.go-home a {
+    color: #4a90e2; /* Light blue for the link */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for the link */
+    font-size: 16px; /* Font size for the link */
+}
+
+.go-home a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #6ab7f9; /* Slightly lighter blue on hover */
+}
